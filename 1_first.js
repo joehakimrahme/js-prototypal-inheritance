@@ -1,3 +1,5 @@
+// Creating objects with object literal {}
+
 let snoopy = { greet: () => "Woof! My name is Snoopy." };
 let tom = { greet: () => "Miao! My name is Tom." };
 let garfield = { greet: () => "Miao! My name is Garfield." };

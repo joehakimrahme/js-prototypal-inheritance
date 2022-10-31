@@ -1,4 +1,8 @@
-function greet_global(sound, name) { return `${sound}! My name is ${name}.`}
+// Using a function to avoid repetition.
+
+function greet_global(sound, name) {
+  return `${sound}! My name is ${name}.`;
+}
 
 let snoopy = { greet: () => greet_global("Woof", "Snoopy") };
 let tom = { greet: () => greet_global("Miao", "Tom") };
