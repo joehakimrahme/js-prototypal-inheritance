@@ -1,0 +1,10 @@
+Exercise
+--------
+
+Write 3 objects that satisfy the following tests:
+
+```
+console.assert(snoopy.greet() == "Woof! My name is Snoopy.")
+console.assert(tom.greet() == "Miao! My name is Tom.")
+console.assert(garfield.greet() == "Miao! My name is Garfield.")
+```
