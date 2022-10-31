@@ -1,19 +1,21 @@
+// Here we can see how we passed the same function in the prototype of 2 differents
+// Constructors
+
 function greet_global() {
-    return `${this.sound}! My name is ${this.name}.`;
-};
+  return `${this.sound}! My name is ${this.name}.`;
+}
 
 function Cat(name) {
-    this.name = name
-    this.sound = "Miao"
+  this.name = name;
+  this.sound = "Miao";
 }
 function Dog(name) {
-    this.name = name
-    this.sound = "Woof"
+  this.name = name;
+  this.sound = "Woof";
 }
 
 Cat.prototype.greet = greet_global;
 Dog.prototype.greet = greet_global;
-
 
 let snoopy = new Dog("Snoopy");
 let tom = new Cat("Tom");
